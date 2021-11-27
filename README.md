@@ -42,7 +42,9 @@ const ram = createPerson("ram")
 console.log(ram) // {name:ram, greeting:function}
 console.log(ram.name) // ram
 ```
-But the seems a little long because we always have to create a object and return so the javascript has a shortcut for us in the form of constructor function 
+
+But the seems a little long because we always have to create a object and return so the javascript has a shortcut for us in the form of constructor function
+
 ```
 // instantiation of the person name ram using the normal function
 const ram = createPerson("ram")
